@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <h1>todo list</h1>
+    <label for="filter-todo">
+        scarch text:   <input type="text" name="filter-todo" id="filter-todo" placeholder="search todo">
+    </label>
+    <label for="hide-completed-to-do">
+    hide completed <input type="checkbox" name="hideCompleted" id="hide-completed-to-do">
+    </label>
+    <div id="todo">
+    </div>
+
+    <form id='add-todo'>
+        <input type="text" name="newTodo" placeholder="Add a new Todo">
+        <button for="newTodo">Add To Do</button>
+    </form>
+    <script src="uuidv4.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>
