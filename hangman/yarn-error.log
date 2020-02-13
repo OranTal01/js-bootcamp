@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /Users/otal/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/otal/.yarn/bin:/Users/otal/.config/yarn/global/node_modules/.bin:/Applications/MDDevTools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/otal/.yarn/bin:/Users/otal/.config/yarn/global/node_modules/.bin:/Applications/MDDevTools
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://martifactory.io/api/npm/virtual-npm/babel-cli: ETIMEDOUT
+      at Timeout._onTimeout (/Users/otal/.yarn/lib/cli.js:130201:19)
+      at ontimeout (timers.js:498:11)
+      at tryOnTimeout (timers.js:323:5)
+      at Timer.listOnTimeout (timers.js:290:5)
+
+npm manifest: 
+  {
+      "name": "boilerplate",
+      "version": "1.0.0",
+      "description": "",
+      "main": "input.js",
+      "scripts": {
+          "dev-server": "webpack-dev-server --mode development",
+          "build": "webpack --mode production"
+      },
+      "author": "Oran Tal",
+      "license": "ISC",
+      "dependencies": {
+          "babel-cli": "^6.26.0",
+          "babel-loader": "^7.1.4",
+          "babel-polyfill": "^6.26.0",
+          "babel-preset-env": "^1.6.1",
+          "live-server": "^1.2.1",
+          "webpack": "^4.5.0",
+          "webpack-cli": "^2.0.14",
+          "webpack-dev-server": "^3.1.14"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
