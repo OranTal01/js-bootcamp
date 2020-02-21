@@ -21,7 +21,6 @@ const gradeCalc = function (score, totalScore) {
     } else {
         letterGrade = 'F'
     }
-
     return `You got a ${letterGrade} (${percent}%)!`
 }
 
