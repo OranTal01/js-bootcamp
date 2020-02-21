@@ -24,7 +24,6 @@ const gradeCalc = function (score, totalScore) {
 
     return `You got a ${letterGrade} (${percent}%)!`
 }
-
 try {
     const result = gradeCalc(9, true)
     console.log(result)
